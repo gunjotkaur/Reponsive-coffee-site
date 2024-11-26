@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Water Availability in India</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: linear-gradient(to right, #00b4db, #0083b0);
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+        header h1 {
+            font-size: 3em;
+        }
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
+        .content h2 {
+            font-size: 2.5em;
+            color: #333;
+        }
+        .content p {
+            font-size: 1.2em;
+            color: #666;
+            line-height: 1.6;
+        }
+        .infographics {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+        .infographic-box {
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin: 20px;
+            flex: 1 1 300px;
+            text-align: center;
+        }
+        .infographic-box img {
+            width: 100px;
+            height: auto;
+        }
+
+        .call-to-action {
+            background-color: #00b4db;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .call-to-action a {
+            color: white;
+            padding: 15px 30px;
+            background-color: #0083b0;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.2em;
+    
+        }
+        header h1 {
+            font-size: 3em;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        .banner-img {
+            width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+
+        /* Introduction Section */
+        .intro {
+            background: #fff;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .intro h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .intro p {
+            font-size: 1.2em;
+            line-height: 1.5;
+        }
+
+        /* Water Availability Section */
+        .availability-section {
+            background: #f4f4f4;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .availability-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .states-availability {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .state-card {
+            background: #fff;
+            padding: 20px;
+            flex: 1 1 calc(33.333% - 40px); /* Ensures 3 cards per row */
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            margin-bottom: 20px;
+        }
+
+        .state-card h3 {
+            font-size: 1.8em;
+            color: #1e90ff;
+            margin-bottom: 10px;
+        }
+
+        .state-card p {
+            font-size: 1.2em;
+            line-height: 1.5;
+        }
+
+        .availability-img {
+            width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+        nav { background-color: #005b99; padding: 1em; } 
+    nav a { color: white; margin: 0 1em; text-decoration: none; }
+
+    main { padding: 2em; } section { margin-bottom: 2em; }
+</head>
+    </style>
+    
+<body>
+
+<header>
+    <h1>Water Availability</h1>
+</header>
+<nav> 
+
+    <a href="#introduction">Introduction</a>
+
+    <a href="#importance">Importance of Water</a> 
+
+    <a href="#current-status">Current Status</a> 
+
+    <a href="#conservation">Water Conservation</a> 
+
+</nav>
+
+ <main>
+    <section id="introduction">
+
+<h2>Introduction</h2> 
+
+<p>India is facing a severe water crisis, with growing concerns about water availability due to a combination of population growth, 
+    climate change, and inefficient water management. With over 1.4 billion people, India is the second most populous country in the world,
+     putting immense pressure on its limited freshwater resources. This report provides a brief overview of the current state of water availability in India,
+      its challenges, and potential solutions.</p>
+
+</section>
+
+     <section id="importance">
+
+         <h2>Importance of Water</h2> 
+
+         <p>Water is essential for all forms of life. It is crucial for drinking, agriculture, sanitation, and industry. Without adequate water, communities and ecosystems can suffer severely.
+            Water is essential for life and plays a vital role in sustaining ecosystems, human health, and economic development. It is necessary for drinking, agriculture, sanitation, and industrial processes, making it fundamental to both the environment and society.
+
+Water supports all living organisms by helping regulate body temperature, aiding in digestion, and maintaining hydration. In agriculture, it is critical for growing food and maintaining livestock. Clean water is also essential for preventing diseases, promoting hygiene, and improving quality of life.
+
+Beyond individual needs, water is key to economic activities such as energy generation, manufacturing, and transportation. It also helps maintain ecosystems that provide biodiversity, climate regulation, and natural resources. Without water, none of these functions can continue, making it crucial for the planet’s survival.</p>
+
+     </section>
+
+    <section id="current-status"> 
+
+        <h2>Current Status of Water Availability</h2>
+
+         <p>Currently, many regions around the world face water scarcity. Factors such as climate change, population growth, and pollution contribute to the dwindling availability of clean, fresh water.</p>
+
+         <p>India relies on two major sources of freshwater: surface water (rivers, lakes, and reservoirs) and groundwater. Groundwater, in particular, is heavily over-exploited, with around 89% of groundwater resources used for irrigation. The demand for water continues to rise due to agricultural, industrial, and domestic needs. However, this demand far exceeds supply in many regions, leading to acute water shortages, especially in rural and drought-prone areas.
+            </p>
+    <p><u>Key statistics on water usage in India:</u></p>
+<ul>
+    <li>Agriculture: Accounts for 80-85% of water usage.</li>
+    <li>Domestic use: Approximately 10% of water consumption.</li>
+    <li>Industry: Around 5% of water is used in industries.</p>
+    </li>
+    </ul>
+
+
+
+    </section> 
+
+    <section id="conservation"> 
+
+    <h2>Water Conservation Strategies</h2>
+
+    <p>There are several strategies to conserve water, including:</p>
+
+    <ul> 
+        <li>Reducing water waste through efficient appliances and fixtures.</li>
+
+        <li>Implementing rainwater harvesting systems.</li>
+
+        <li>Promoting the use of greywater for irrigation and industrial purposes.</li>
+
+        <li>Advocating for policies that protect water resources and promote sustainable usage.</li> 
+    </ul>
+    <h3>Potential Solution:</h3>
+    <ul>
+        <li>Rainwater harvesting: Promoting rainwater harvesting in both urban and rural areas can help recharge groundwater and alleviate water shortages.</li>
+        <li>Drip irrigation: Introducing efficient irrigation methods, such as drip irrigation, can significantly reduce water consumption in agriculture.</li>
+        <li>Water conservation education: Public awareness campaigns on the importance of water conservation can help reduce household water consumption.</li>
+        <li>Wastewater treatment: Expanding wastewater recycling and treatment facilities can provide an alternative water source for non-potable uses.</li>
+    </ul>
+
+     </section> </main>
+<section>
+    <div class="content">
+        <h2>Overview</h2>
+        <p>Water scarcity is one of India's most pressing issues, affecting millions of people every day. The availability of clean and safe water has become a challenge due to rapid urbanization, population growth, and climate change.</p>
+        <img src="wateravailab.jpg" alt="Water Availability in India">
+    </div>
+    <section class="availability-section">
+        <div class="container">
+            <h2>Water Availability by State</h2>
+            <div class="states-availability">
+                <!-- State Cards -->
+                <div class="state-card">
+                    <h3>Andhra Pradesh</h3>
+                    <p>Andhra Pradesh receives significant water from the Krishna and Godavari rivers, but droughts are common in some regions.</p>
+                </div>
+
+                <div class="state-card">
+                    <h3>Arunachal Pradesh</h3>
+                    <p>Arunachal Pradesh has abundant water resources due to heavy rainfall and large river systems like the Brahmaputra.</p>
+                </div>
+
+                <div class="state-card">
+                    <h3>Assam</h3>
+                    <p>Assam is water-rich, with rivers like the Brahmaputra providing ample water supply, but floods are a frequent problem.</p>
+                </div>
+
+                <div class="state-card">
+                    <h3>Bihar</h3>
+                    <p>Bihar has good water availability, but mismanagement and floods, particularly from the Ganges and Kosi rivers, are significant issues.</p>
+                </div>
+
+                <div class="state-card">
+                    <h3>Chhattisgarh</h3>
+                    <p>Chhattisgarh benefits from rivers like the Mahanadi, and water availability is relatively high.</p>
+                </div>
+
+                <div class="state-card">
+                    <h3>Goa</h3>
+                    <p>Goa has sufficient water availability with regular rainfall and access to river systems like Mandovi and Zuari.</p>
+                </div>
+
+                <div class="state-card">
+                    <h3>Gujarat</h3>
+                    <p>Gujarat, though a dry state, benefits from the Narmada river. However, water scarcity is common in certain regions.</p>
+                </div>
+
+                <div class="state-card">
+                    <h3>Haryana</h3>
+                    <p>Haryana faces severe water shortages due to overuse for agriculture, though it relies on groundwater and river canals.</p>
+                </div>
+
+                <div class="state-card">
+                    <h3>Himachal Pradesh</h3>
+                    <p>Himachal Pradesh has abundant water resources, with numerous rivers originating from glaciers and heavy rainfall.</p>
+                </div>
+
+                <div class="state-card">
+                    <h3>Jharkhand</h3>
+                    <p>Jharkhand has reasonable water resources but faces challenges due to its uneven distribution and industrial demand.</p>
+                </div>
+
+                <div class="state-card">
+                    <h3>Karnataka</h3>
+                    <p>Karnataka has water availability through rivers like the Cauvery, though droughts are common in the northern region.</p>
+                </div>
+
+                <div class="state-card">
+                    <h3>Kerala</h3>
+                    <p>Kerala has an abundance of water due to high rainfall and many rivers, although urbanization has increased pressure on resources.</p>
+                </div>
+
+                <div class="state-card">
+                    <h3>Madhya Pradesh</h3>
+                    <p>Madhya Pradesh has access to rivers like the Narmada and Tapti, ensuring water availability in most regions.</p>
+                </div>
+
+                <div class="state-card">
+                    <h3>Maharashtra</h3>
+                    <p>Maharashtra faces severe water shortages in drought-prone regions like Marathwada, despite having major rivers like the Godavari.</p>
+                </div>
+
+                <div class="state-card">
+                    <h3>Manipur</h3>
+                    <p>Manipur enjoys good water availability from rainfall and rivers, but uneven distribution can be an issue.</p>
+                </div>
+
+                <div class="state-card">
+                    <h3>Meghalaya</h3>
+                    <p>Meghalaya, one of the wettest places on earth, has abundant water availability.</p>
+                </div>
+
+                <div class="state-card">
+                    <h3>Mizoram</h3>
+                    <p>Mizoram's hilly terrain and heavy rainfall provide good water resources, although storage can be challenging.</p>
+                </div>
+
+                <div class="state-card">
+                    <h3>Nagaland</h3>
+                    <p>Nagaland receives high rainfall and has adequate water resources, but infrastructure challenges persist.</p>
+                </div>
+
+                <div class="state-card">
+                    <h3>Odisha</h3>
+                    <p>Odisha has good water resources due to rivers like the Mahanadi, though floods and droughts are frequent issues.</p>
+                </div>
+
+                <div class="state-card">
+                    <h3>Punjab</h3>
+                    <p>Punjab's water availability is severely strained due to over-extraction for agriculture, particularly in terms of groundwater.</p>
+                </div>
+
+                <div class="state-card">
+                    <h3>Rajasthan</h3>
+                    <p>Rajasthan faces the lowest water availability in India due to its desert terrain and reliance on limited water sources like groundwater.</p>
+                </div>
+
+                <div class="state-card">
+                    <h3>Sikkim</h3>
+                    <p>Sikkim has good water resources, thanks to its rivers and glaciers.</p>
+                </div>
+
+                <div class="state-card">
+                    <h3>Tamil Nadu</h3>
+                    <p>Tamil Nadu relies heavily on the Cauvery river for water, but frequent droughts create severe shortages.</p>
+                </div>
+
+                <div class="state-card">
+                    <h3>Telangana</h3>
+                    <p>Telangana faces significant water stress, with droughts common in many regions despite rivers like the Godavari.</p>
+                </div>
+
+                <div class="state-card">
+                    <h3>Tripura</h3>
+                    <p>Tripura has good water availability due to ample rainfall and rivers, but infrastructure development is needed.</p>
+                </div>
+
+                <div class="state-card">
+                    <h3>Uttar Pradesh</h3>
+                    <p>Uttar Pradesh has access to the Ganges and Yamuna rivers, but its large population creates significant water demand and scarcity.</p>
+                </div>
+
+                <div class="state-card">
+                    <h3>Uttarakhand</h3>
+                    <p>Uttarakhand has ample water from the Himalayan rivers and glaciers, though environmental issues have created challenges.</p>
+                </div>
+
+                <div class="state-card">
+                    <h3>West Bengal</h3>
+                    <p>West Bengal benefits from the Ganges and other rivers, though water pollution and seasonal floods are major problems.</p>
+                </div>
+            </div>
+            <img src="water sources.jpg" alt="Water Sources in India" class="availability-img">
+        </div>
+    </section>
+
+    <div class="infographics">
+        <div class="infographic-box">
+            <h3>Water Sources</h3>
+            <img src="graph.jpg" alt="Graph of Water Sources">
+            <p>Graphical data showing the primary water sources in India, including surface water and groundwater.</p>
+        </div>
+        <div class="infographic-box">
+            <h3>Water Usage</h3>
+            <img src="watrusage.jpg" alt="Graph of Water Usage" id="waterusage">
+            <p>Breakdown of water usage across agricultural, industrial, and domestic sectors.</p>
+        </div>
+        <div class="infographic-box">
+            <h3>Water Shortage Areas</h3>
+            <img src="watershortage map.jpg" alt="Map of Water Shortage Areas">
+            <p>Map showing regions most affected by water shortages in India.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="content">
+        <h2>Solutions to Water Scarcity</h2>
+        <div class="infographics">
+            <div class="infographic-box">
+                <h3>Rainwater Harvesting</h3>
+                <img src="rainwater.jpg" alt="Rainwater Harvesting Icon">
+                <p>A sustainable solution that involves collecting and storing rainwater for future use.</p>
+            </div>
+            <div class="infographic-box">
+                <h3>Efficient Irrigation</h3>
+                <img src="dripirrigation.jpg" alt="Efficient Irrigation Icon">
+                <p>Implementing methods like drip irrigation to reduce water wastage in agriculture.</p>
+            </div>
+            <div class="infographic-box">
+                <h3>Water Conservation</h3>
+                <img src="waterconserv.jpg" alt="Water Conservation Icon">
+                <p>Promoting water-saving techniques in households and industries to minimize water usage.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section style="text-align: center;">
+    <div id="conclu">
+        <h1 style="font-size:xxx-large;">Conclusion</h1>
+        <p>Water availability in India is a critical issue that requires immediate action. Sustainable water management practices, improved irrigation techniques, and public awareness campaigns are essential to preserve water resources for future generations. Without timely intervention, India may face a deeper water crisis, affecting both rural livelihoods and urban populations.</p>
+        </div>
+    </section>
+<div class="call-to-action">
+    <h2>Take Action</h2>
+    <p>Join us in conserving water for future generations.</p>
+    <a href="#learn-more">Learn More</a>
+</div>
+
+<footer>
+    <p>&copy; 2024 Water Conservation Initiative. All Rights Reserved.</p>
+    <p>Done by </p>
+    <P>NAJA HINDH K 25 12415899</P>
+    <p>GUNJOT KAUR 26 12416256</p>
+    <P>VIVEK RAJAK 27 12416937</P>
+</footer>
+
+</body>
+</html>
